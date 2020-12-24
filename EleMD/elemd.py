@@ -13,7 +13,7 @@ from ElMD.scales import (
 
 
 class EleMD:
-    # TODO allow for custome scale_dicts
+    # TODO allow for custom scale_dicts
     def __init__(self, scale: str = "mod_pettifor"):
         """[summary]
 
