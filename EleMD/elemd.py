@@ -1,9 +1,10 @@
 import numpy as np
+from functools import lru_cache
 
 from ot import emd2
 from pymatgen import Composition
 
-from ElMD.scales import (
+from EleMD.scales import (
     pymatgen_els,
     atomic,
     mendeleev,
@@ -34,6 +35,7 @@ class EleMD:
         return emd2(x1, x2, self.M)
 
 
+@lru_cache(maxsize=None)  # Cache vectors for faster training
 def _get_frac_vector(comp: str):
     py_comp = Composition(comp)
 
