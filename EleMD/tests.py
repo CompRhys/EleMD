@@ -3,7 +3,7 @@ from EleMD import EleMD
 
 
 def test():
-    # values calculates using older code
+    # values for tests calculated using reference code from https://github.com/lrcfmd/ElMD
     elemd = EleMD("atomic").elemd
     assert math.isclose(elemd("Zr3AlN", "CaTiO3"), 15.2, abs_tol=1e-5)
     assert math.isclose(elemd("Li7La3Hf2O12", "CsPbI3"), 41.2333335, abs_tol=1e-5)
