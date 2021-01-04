@@ -39,4 +39,6 @@ atomic = EleMD(scale="atomic")
 
 ## Disclaimer
 
+This code is designed to mimic the functionality of this reference implementation https://github.com/lrcfmd/ElMD. We do not have any involvement in the development of that code nor any claim to the idea of the element-movers-distance.
+
 This is research code shared without support or any guarantee on its quality. However, please do raise an issue or submit a pull request if you spot something wrong or that could be improved.
