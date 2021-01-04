@@ -1,6 +1,6 @@
 # EleMD
 
-[![Tests](https://github.com/CompRhys/EleMD/workflows/Tests/badge.svg)](https://github.com/CompRhys/EleMD/actions)
+![Tests](https://github.com/CompRhys/EleMD/workflows/Tests/badge.svg)
 
 A minimal implementation of the Element-Movers-Distance using standard libraries.
 
