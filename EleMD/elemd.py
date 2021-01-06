@@ -63,3 +63,7 @@ def _get_cost_matrix(scale: str):
     v_scale = np.atleast_2d(v_scale)
     ones = np.ones_like(v_scale)
     return np.abs(np.matmul(v_scale.T, ones) - np.matmul(ones.T, v_scale))
+
+if __name__ == "__main__":
+    elemd = EleMD("mod_pettifor").elemd
+    print(elemd("Zr3AlN", "CaTiO3"))
