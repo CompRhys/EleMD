@@ -2,7 +2,7 @@ import numpy as np
 from functools import lru_cache
 
 from ot import emd2
-from pymatgen import Composition
+from pymatgen.core.composition import Composition
 
 from EleMD.scales import (
     pymatgen_els,
