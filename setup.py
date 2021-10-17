@@ -14,6 +14,11 @@ setuptools.setup(
     url="https://github.com/comprhys/EleMD",
     packages=['EleMD'],
     package_dir={'EleMD': 'EleMD'},
+    install_requires=[
+        "numpy",
+        "pymatgen",
+        "POT",
+    ],
     classifiers=[
         "Programming Language :: Python :: 3.6",
         "License :: OSI Approved :: MIT License",
